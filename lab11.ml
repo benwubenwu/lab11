@@ -85,7 +85,8 @@ let x3 = 3, 3 * 3, 3 ;;
 
 (* 4. *)
 
-let x4 = List.map ((+) 3.) [4.; 5.; 6.] ;;
+(* let x4 = List.map ((+) 3.) [4.; 5.; 6.] ;; 
+Doesn't type because float, while expecting int *)
 
 (x3 : int * int * int) ;;
 
