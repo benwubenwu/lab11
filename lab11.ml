@@ -34,7 +34,8 @@ let f1 b = if b then () else () ;;
 
 (* 2. f2 : int -> int option *)
 
-let f2 _ =   let _ = x + 1 in
+let f2 x =
+  let _ = x + 1 in
   Some 3 ;;
 
 (* 3. f3 : 'a * bool -> 'a *)
